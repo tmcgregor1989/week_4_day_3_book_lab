@@ -13,7 +13,8 @@
             <select id="author_id" name="author_id">
                 {% for author in all_authors %}
                     <option value="{{author.id}}">{{author.last_name}}, {{author.first_name}}</option>
-                    {% endfor %}
+                    
+                {% endfor %}
 
             </select>
         </div>
